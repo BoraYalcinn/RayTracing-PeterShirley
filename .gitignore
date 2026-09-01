@@ -1,0 +1,44 @@
+# Build directory
+build/
+out/
+cmake-build-*/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+compile_commands.json
+Makefile
+Testing/
+CTestTestfile.cmake
+_deps/
+
+# Compiled binaries / objects
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dylib
+
+# Rendered output images (regenerate anytime, don't need in git)
+*.ppm
+*.png
+image.ppm
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.cache/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# clangd config/index (project-specific, keep local)
+.clangd
+compile_flags.txt
