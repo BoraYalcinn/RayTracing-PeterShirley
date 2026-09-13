@@ -21,7 +21,7 @@ const double pi = 3.1415926535897932385;
 // Utility Functions
 
 inline double random_double() {
-    return std::rand() / (RAND_MAX +1.);
+    return std::rand() / (RAND_MAX + 1.);
 }
 inline double random_double(double min, double max){
     // returns a random real in [min,max).
