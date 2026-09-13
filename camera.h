@@ -3,6 +3,7 @@
 
 
 #include "hittable.h"
+#include "material.h"
 
   // | Value                 | How it's determined                                                |
   // |-----------------------|--------------------------------------------------------------------|
@@ -111,8 +112,16 @@ class camera{
 
             if (world.hit(r, interval(0.001, infinity), rec))  {
                 // vec3 direction = random_on_hemisphere(rec.normal); Scattering reflected rays evenly about the hemisphere
-                vec3 direction = rec.normal + random_unit_vector(); // AND THIS IS A BETTER IMPLEMENTATION CALLED TRUE LAMBERTIAN REFLECTION !
-                return 0.1 * ray_color(ray(rec.p, direction), depth-1, world); // gamma correction for accurate color intensity
+                // vec3 direction = rec.normal + random_unit_vector(); // AND THIS IS A BETTER IMPLEMENTATION CALLED TRUE LAMBERTIAN REFLECTION !
+                // return 0.1 * ray_color(ray(rec.p, direction), depth-1, world); // gamma correction for accurate color intensity
+
+                ray scattered;
+                color attenuation;
+                if (rec.mat->scatter(r, rec, attenuation, scattered)){
+                    return attenuation * ray_color(scattered, depth-1, world);
+                }
+                    
+                return color(0,0,0);
             }
     
 
