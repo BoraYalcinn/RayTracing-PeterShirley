@@ -2,7 +2,7 @@
 
 A C++ ray tracer built by following Peter Shirley's [*Ray Tracing in One Weekend*](https://raytracing.github.io/) series. After digging a little bit more into Ray Tracers I will be building my own one !
 
-## What's implemented
+## What's implemented so far
 
 - Sphere intersection
 - Diffuse (Lambertian), metal, and dielectric (glass) materials
