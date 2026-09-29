@@ -1,7 +1,6 @@
 #ifndef RTWEEKEND_H
 #define RTWEEKEND_H
 
-#include "bvh.h"
 #include <cmath>
 #include <cstdlib>
 #include <iostream>

@@ -1,0 +1,3 @@
+/home/boray/dev/github/RayTracer/build/CMakeFiles/RayTracer.dir
+/home/boray/dev/github/RayTracer/build/CMakeFiles/edit_cache.dir
+/home/boray/dev/github/RayTracer/build/CMakeFiles/rebuild_cache.dir
