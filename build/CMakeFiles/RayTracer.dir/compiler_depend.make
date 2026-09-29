@@ -11,6 +11,7 @@ CMakeFiles/RayTracer.dir/src/main.cc.o: /home/boray/dev/github/RayTracer/src/mai
   /home/boray/dev/github/RayTracer/src/hittable_list.h \
   /home/boray/dev/github/RayTracer/src/interval.h \
   /home/boray/dev/github/RayTracer/src/material.h \
+  /home/boray/dev/github/RayTracer/src/perlin.h \
   /home/boray/dev/github/RayTracer/src/ray.h \
   /home/boray/dev/github/RayTracer/src/rtw_stb_image.h \
   /home/boray/dev/github/RayTracer/src/rtweekend.h \
@@ -393,8 +394,6 @@ RayTracer: /lib64/ld-linux-x86-64.so.2 \
 
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
-/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
-
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
@@ -499,26 +498,6 @@ RayTracer: /lib64/ld-linux-x86-64.so.2 \
 
 /usr/include/c++/15/bits/localefwd.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
-
-/usr/include/asm-generic/errno.h:
-
-/usr/include/x86_64-linux-gnu/bits/wchar2-decl.h:
-
-/usr/include/c++/15/bits/version.h:
-
-/usr/include/c++/15/bits/concept_check.h:
-
-/usr/include/c++/15/tr1/modified_bessel_func.tcc:
-
-/usr/include/linux/limits.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
-
-/usr/include/asm-generic/errno-base.h:
-
-/usr/include/c++/15/math.h:
-
 /usr/include/c++/15/ext/aligned_buffer.h:
 
 /usr/include/c++/15/bits/stl_iterator.h:
@@ -528,6 +507,10 @@ RayTracer: /lib64/ld-linux-x86-64.so.2 \
 /usr/include/c++/15/vector:
 
 /usr/include/alloca.h:
+
+/usr/include/c++/15/bits/stl_tempbuf.h:
+
+/home/boray/dev/github/RayTracer/src/rtweekend.h:
 
 /usr/include/c++/15/initializer_list:
 
@@ -551,9 +534,11 @@ RayTracer: /lib64/ld-linux-x86-64.so.2 \
 
 /usr/include/c++/15/typeinfo:
 
-/usr/include/c++/15/bits/stl_tempbuf.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 
-/home/boray/dev/github/RayTracer/src/rtweekend.h:
+/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
 /usr/include/c++/15/bits/string_view.tcc:
 
@@ -591,12 +576,6 @@ RayTracer: /lib64/ld-linux-x86-64.so.2 \
 
 /usr/include/c++/15/bits/istream.tcc:
 
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
-
-/usr/include/asm-generic/types.h:
-
-/usr/include/asm-generic/bitsperlong.h:
-
 /usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
@@ -632,6 +611,32 @@ RayTracer: /lib64/ld-linux-x86-64.so.2 \
 /usr/include/c++/15/bits/ios_base.h:
 
 /usr/include/wchar.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar2-decl.h:
+
+/usr/include/c++/15/bits/version.h:
+
+/usr/include/c++/15/bits/concept_check.h:
+
+/usr/include/c++/15/tr1/modified_bessel_func.tcc:
+
+/usr/include/linux/limits.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
+/usr/include/asm-generic/bitsperlong.h:
+
+/usr/include/asm-generic/types.h:
+
+/usr/include/c++/15/math.h:
 
 /usr/include/c++/15/bits/char_traits.h:
 
@@ -711,13 +716,13 @@ RayTracer: /lib64/ld-linux-x86-64.so.2 \
 
 /usr/include/c++/15/bits/stl_algo.h:
 
+/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
+
+/home/boray/dev/github/RayTracer/src/perlin.h:
+
 /usr/include/c++/15/bits/shared_ptr_atomic.h:
 
 /usr/include/c++/15/bits/cxxabi_forced.h:
-
-/usr/include/c++/15/bits/vector.tcc:
-
-/usr/include/c++/15/iostream:
 
 /usr/include/c++/15/bits/exception_defines.h:
 
@@ -740,6 +745,10 @@ RayTracer: /lib64/ld-linux-x86-64.so.2 \
 /usr/include/c++/15/bits/locale_classes.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
+
+/usr/include/c++/15/bits/vector.tcc:
+
+/usr/include/c++/15/iostream:
 
 /usr/include/c++/15/istream:
 
@@ -954,9 +963,3 @@ CMakeFiles/RayTracer.dir/src/main.cc.o:
 /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:

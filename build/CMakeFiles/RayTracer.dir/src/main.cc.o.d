@@ -226,6 +226,7 @@ CMakeFiles/RayTracer.dir/src/main.cc.o: \
  /home/boray/dev/github/RayTracer/src/camera.h \
  /home/boray/dev/github/RayTracer/src/material.h \
  /home/boray/dev/github/RayTracer/src/texture.h \
+ /home/boray/dev/github/RayTracer/src/perlin.h \
  /home/boray/dev/github/RayTracer/src/rtw_stb_image.h \
  /home/boray/dev/github/RayTracer/external/stb_image.h \
  /usr/include/c++/15/stdlib.h /usr/include/string.h \

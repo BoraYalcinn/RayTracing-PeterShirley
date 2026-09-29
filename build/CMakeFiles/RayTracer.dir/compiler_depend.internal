@@ -12,6 +12,7 @@ CMakeFiles/RayTracer.dir/src/main.cc.o
  /home/boray/dev/github/RayTracer/src/hittable_list.h
  /home/boray/dev/github/RayTracer/src/interval.h
  /home/boray/dev/github/RayTracer/src/material.h
+ /home/boray/dev/github/RayTracer/src/perlin.h
  /home/boray/dev/github/RayTracer/src/ray.h
  /home/boray/dev/github/RayTracer/src/rtw_stb_image.h
  /home/boray/dev/github/RayTracer/src/rtweekend.h
