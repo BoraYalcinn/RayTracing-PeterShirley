@@ -248,4 +248,5 @@ CMakeFiles/RayTracer.dir/src/main.cc.o: \
  /usr/lib/gcc/x86_64-linux-gnu/15/include/xmmintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/15/include/mmintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/15/include/mm_malloc.h \
+ /home/boray/dev/github/RayTracer/src/quad.h \
  /home/boray/dev/github/RayTracer/src/sphere.h
