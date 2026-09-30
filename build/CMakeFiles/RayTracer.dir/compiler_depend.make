@@ -7,6 +7,7 @@ CMakeFiles/RayTracer.dir/src/main.cc.o: /home/boray/dev/github/RayTracer/src/mai
   /home/boray/dev/github/RayTracer/src/bvh.h \
   /home/boray/dev/github/RayTracer/src/camera.h \
   /home/boray/dev/github/RayTracer/src/color.h \
+  /home/boray/dev/github/RayTracer/src/constant_medium.h \
   /home/boray/dev/github/RayTracer/src/hittable.h \
   /home/boray/dev/github/RayTracer/src/hittable_list.h \
   /home/boray/dev/github/RayTracer/src/interval.h \
@@ -437,8 +438,6 @@ RayTracer: /lib64/ld-linux-x86-64.so.2 \
 
 /usr/include/c++/15/bits/unique_ptr.h:
 
-/usr/include/c++/15/ios:
-
 /usr/include/features-time64.h:
 
 /usr/include/c++/15/bits/streambuf_iterator.h:
@@ -549,6 +548,14 @@ RayTracer: /lib64/ld-linux-x86-64.so.2 \
 
 /usr/include/c++/15/bits/char_traits.h:
 
+/usr/include/c++/15/bits/string_view.tcc:
+
+/usr/include/x86_64-linux-gnu/asm/types.h:
+
+/usr/include/c++/15/cwctype:
+
+/usr/include/c++/15/bits/algorithmfwd.h:
+
 /usr/include/c++/15/initializer_list:
 
 /usr/lib/x86_64-linux-gnu/libm.so:
@@ -570,14 +577,6 @@ RayTracer: /lib64/ld-linux-x86-64.so.2 \
 /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
-
-/usr/include/c++/15/bits/string_view.tcc:
-
-/usr/include/x86_64-linux-gnu/asm/types.h:
-
-/usr/include/c++/15/cwctype:
-
-/usr/include/c++/15/bits/algorithmfwd.h:
 
 /usr/lib/x86_64-linux-gnu/Scrt1.o:
 
@@ -606,6 +605,8 @@ RayTracer: /lib64/ld-linux-x86-64.so.2 \
 /usr/include/c++/15/bits/stl_iterator_base_types.h:
 
 /usr/include/stdc-predef.h:
+
+/home/boray/dev/github/RayTracer/src/constant_medium.h:
 
 /usr/include/c++/15/bit:
 
@@ -746,6 +747,8 @@ RayTracer: /lib64/ld-linux-x86-64.so.2 \
 /usr/include/c++/15/bits/locale_classes.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
+
+/usr/include/c++/15/ios:
 
 /usr/include/c++/15/iosfwd:
 
