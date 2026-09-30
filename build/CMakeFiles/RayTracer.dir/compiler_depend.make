@@ -12,6 +12,7 @@ CMakeFiles/RayTracer.dir/src/main.cc.o: /home/boray/dev/github/RayTracer/src/mai
   /home/boray/dev/github/RayTracer/src/interval.h \
   /home/boray/dev/github/RayTracer/src/material.h \
   /home/boray/dev/github/RayTracer/src/perlin.h \
+  /home/boray/dev/github/RayTracer/src/quad.h \
   /home/boray/dev/github/RayTracer/src/ray.h \
   /home/boray/dev/github/RayTracer/src/rtw_stb_image.h \
   /home/boray/dev/github/RayTracer/src/rtweekend.h \
@@ -410,12 +411,6 @@ RayTracer: /lib64/ld-linux-x86-64.so.2 \
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
-/usr/include/c++/15/iosfwd:
-
-/usr/include/x86_64-linux-gnu/c++/15/bits/gthr-default.h:
-
-/usr/include/c++/15/limits:
-
 /usr/include/c++/15/ext/numeric_traits.h:
 
 /usr/include/c++/15/ext/atomicity.h:
@@ -498,6 +493,20 @@ RayTracer: /lib64/ld-linux-x86-64.so.2 \
 
 /usr/include/c++/15/bits/localefwd.h:
 
+/usr/include/c++/15/bits/stl_function.h:
+
+/usr/include/c++/15/cwchar:
+
+/usr/include/string.h:
+
+/usr/include/c++/15/bits/postypes.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio.h:
+
+/usr/include/c++/15/bits/locale_facets.tcc:
+
+/usr/include/ctype.h:
+
 /usr/include/c++/15/ext/aligned_buffer.h:
 
 /usr/include/c++/15/bits/stl_iterator.h:
@@ -511,6 +520,34 @@ RayTracer: /lib64/ld-linux-x86-64.so.2 \
 /usr/include/c++/15/bits/stl_tempbuf.h:
 
 /home/boray/dev/github/RayTracer/src/rtweekend.h:
+
+/usr/include/c++/15/bits/std_abs.h:
+
+/home/boray/dev/github/RayTracer/src/camera.h:
+
+/usr/include/c++/15/typeinfo:
+
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+/usr/include/c++/15/bits/requires_hosted.h:
+
+/usr/include/c++/15/cstdlib:
+
+/usr/include/c++/15/bits/locale_facets.h:
+
+/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+/home/boray/dev/github/RayTracer/src/interval.h:
+
+/home/boray/dev/github/RayTracer/src/rtw_stb_image.h:
+
+/usr/include/c++/15/ext/type_traits.h:
+
+/usr/include/c++/15/bits/functional_hash.h:
+
+/usr/include/c++/15/bits/char_traits.h:
 
 /usr/include/c++/15/initializer_list:
 
@@ -527,12 +564,6 @@ RayTracer: /lib64/ld-linux-x86-64.so.2 \
 /usr/include/c++/15/bits/ptr_traits.h:
 
 /usr/include/c++/15/bits/stl_construct.h:
-
-/home/boray/dev/github/RayTracer/src/camera.h:
-
-/usr/include/c++/15/bits/std_abs.h:
-
-/usr/include/c++/15/typeinfo:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 
@@ -556,31 +587,11 @@ RayTracer: /lib64/ld-linux-x86-64.so.2 \
 
 /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
 
-/usr/include/c++/15/ext/type_traits.h:
-
-/home/boray/dev/github/RayTracer/src/rtw_stb_image.h:
-
-/usr/include/c++/15/bits/functional_hash.h:
-
-/usr/include/c++/15/cstdlib:
-
-/usr/include/c++/15/bits/requires_hosted.h:
-
-/usr/include/c++/15/bits/locale_facets.h:
-
-/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
-
 /home/boray/dev/github/RayTracer/src/main.cc:
 
 /usr/include/c++/15/bits/allocated_ptr.h:
 
 /usr/include/c++/15/bits/istream.tcc:
-
-/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
-
-/home/boray/dev/github/RayTracer/src/interval.h:
 
 /home/boray/dev/github/RayTracer/src/sphere.h:
 
@@ -638,21 +649,13 @@ RayTracer: /lib64/ld-linux-x86-64.so.2 \
 
 /usr/include/c++/15/math.h:
 
-/usr/include/c++/15/bits/char_traits.h:
-
 /usr/include/c++/15/exception:
 
-/usr/include/c++/15/cwchar:
-
-/usr/include/c++/15/bits/stl_function.h:
-
-/usr/include/string.h:
-
-/usr/include/c++/15/bits/postypes.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio.h:
-
 /home/boray/dev/github/RayTracer/src/hittable_list.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
 
 /usr/include/c++/15/ext/alloc_traits.h:
 
@@ -732,19 +735,23 @@ RayTracer: /lib64/ld-linux-x86-64.so.2 \
 
 /usr/include/c++/15/bits/cxxabi_init_exception.h:
 
-/usr/include/c++/15/bits/locale_facets.tcc:
-
-/usr/include/ctype.h:
-
 /usr/include/x86_64-linux-gnu/bits/mathcalls-macros.h:
 
 /home/boray/dev/github/RayTracer/external/stb_image.h:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+
 /usr/include/c++/15/bits/locale_classes.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
+
+/usr/include/c++/15/iosfwd:
+
+/usr/include/x86_64-linux-gnu/c++/15/bits/gthr-default.h:
+
+/usr/include/c++/15/limits:
 
 /usr/include/c++/15/bits/vector.tcc:
 
@@ -860,6 +867,8 @@ CMakeFiles/RayTracer.dir/src/main.cc.o:
 
 /usr/include/c++/15/bits/stl_iterator_base_funcs.h:
 
+/home/boray/dev/github/RayTracer/src/quad.h:
+
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
@@ -957,9 +966,3 @@ CMakeFiles/RayTracer.dir/src/main.cc.o:
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
