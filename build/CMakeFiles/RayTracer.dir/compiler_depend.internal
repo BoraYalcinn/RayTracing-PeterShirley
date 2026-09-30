@@ -8,6 +8,7 @@ CMakeFiles/RayTracer.dir/src/main.cc.o
  /home/boray/dev/github/RayTracer/src/bvh.h
  /home/boray/dev/github/RayTracer/src/camera.h
  /home/boray/dev/github/RayTracer/src/color.h
+ /home/boray/dev/github/RayTracer/src/constant_medium.h
  /home/boray/dev/github/RayTracer/src/hittable.h
  /home/boray/dev/github/RayTracer/src/hittable_list.h
  /home/boray/dev/github/RayTracer/src/interval.h
